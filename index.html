@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework9-10js</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.selectbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/jquery.color.2.1.0.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/jquery.selectbox-0.6.1.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#">NAV#1</a></li>
+                <li><a href="#">NAV#2</a></li>
+                <li class="drop">
+                    <a href="#">NAV#3</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">NAV#3.1</a>
+                        </li>
+                        <li>
+                            <a href="#">NAV#3.2</a>
+                        </li>
+                        <li class="drop">
+                            <a href="#">NAV#3.3</a>
+                            <ul class="submenu">
+                                <li><a href="#">NAV#3.3.1</a></li>
+                                <li><a href="#">NAV#3.3.2</a></li>
+                                <li><a href="#">NAV#3.3.3</a></li>
+                                <li><a href="#">NAV#3.3.4</a></li>
+                                <li><a href="#">NAV#3.3.5</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">NAV#3.4</a>
+                        </li>
+                        <li>
+                            <a href="#">NAV#3.5</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">NAV#4</a></li>
+                <li><a href="#">NAV#5</a></li>
+            </ul>
+        </nav>
+        <div class="jcarousel-wrapper">
+            <div class="jcarousel">
+                <ul>
+                    <li><img src="img/karusel/img1.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/karusel/img2.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/karusel/img3.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/karusel/img4.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/karusel/img5.jpg" width="600" height="400" alt=""></li>
+                    <li><img src="img/karusel/img6.jpg" width="600" height="400" alt=""></li>
+                </ul>
+            </div>
+            <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+            <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+            <p class="jcarousel-pagination"></p>
+        </div>
+        <div class="clearfix">
+            <select class="jquery-selectbox">
+                <option value="--">Please select your favorite color</option>
+                <option value="01">Red</option>
+                <option value="02">Orange</option>
+                <option value="03">Yellow</option>
+                <option value="04">Green</option>
+                <option value="05">Blue</option>
+                <option value="06">Magenta</option>
+                <option value="07">Violet</option>
+                <option value="08">Ultra-violet</option>
+            </select>
+        </div>
+        <div>
+            <span class="niceCheck"><input checked type="checkbox" name="ch1">checkbox 1</span>
+            <span class="niceCheck"><input checked type="checkbox" name="ch2">checkbox 2</span>
+            <span class="niceCheck"><input type="checkbox" name="ch3">checkbox 3</span>
+        </div>
+    </div>
+</body>
+</html>
